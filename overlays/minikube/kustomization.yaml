@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - ../../base
+  - ingress.yaml
+
+# Image tags updated by CI (update-manifests job) - placeholders until first push
+images:
+  - name: docker.io/PLACEHOLDER_DOCKER_USER/expense-tracker-backend
+    newName: docker.io/PLACEHOLDER_DOCKER_USER/expense-tracker-backend
+    newTag: sha-placeholder
+  - name: docker.io/PLACEHOLDER_DOCKER_USER/expense-tracker-frontend
+    newName: docker.io/PLACEHOLDER_DOCKER_USER/expense-tracker-frontend
+    newTag: sha-placeholder
