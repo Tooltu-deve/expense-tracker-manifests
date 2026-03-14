@@ -6,11 +6,9 @@ namespace: expense-tracker
 resources:
   - namespace.yaml
   - mysql/configmap.yaml
-  - mysql/secret.yaml
   - mysql/service.yaml
   - mysql/statefulset.yaml
   - backend/configmap.yaml
-  - backend/secret.yaml
   - backend/deployment.yaml
   - backend/service.yaml
   - frontend/deployment.yaml
