@@ -9,7 +9,7 @@ resources:
 images:
   - name: docker.io/PLACEHOLDER_DOCKER_USER/expense-tracker-backend
     newName: tooltu/expense-tracker-backend
-    newTag: 53fb1566cbba3c1962e3767f4ebd11413ceb9935
+    newTag: 791611550b2206dcb9431d0fc4131efdceedf318
   - name: docker.io/PLACEHOLDER_DOCKER_USER/expense-tracker-frontend
     newName: tooltu/expense-tracker-frontend
-    newTag: 53fb1566cbba3c1962e3767f4ebd11413ceb9935
+    newTag: 791611550b2206dcb9431d0fc4131efdceedf318
