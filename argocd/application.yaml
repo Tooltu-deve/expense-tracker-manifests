@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/REPLACE_OWNER/expense-tracker-manifests
+    repoURL: https://github.com/Tooltu-deve/expense-tracker-manifests
     targetRevision: main
     path: overlays/minikube
   destination:
